@@ -1,45 +1,45 @@
 .NAVBAR {
-    background: radial-gradient(
-      circle,
-      rgba(2, 0, 36, 1) 0%,
-      rgb(241, 230, 242) 50%,
-      rgba(48, 40, 33, 0.686) 100%
-      /* rgba(135, 0, 224, 1) 50%,
-      rgba(36, 116, 133, 0.6859122401847575) 100% */
-    );
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 100px;
-    font-family: "Poppins", sans-serif;
-  }
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(241, 230, 242) 50%,
+    rgba(48, 40, 33, 0.686) 100%
+  );
+  height: 100px; /* Reduced from 130px for better visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px; /* Reduced from 100px to bring content closer */
+}
 
-  .navbar-links {
-    display: flex;
-    justify-content: space-evenly;
-    height: 80px;
-    font-family: "Poppins", sans-serif;
-    flex: 1;
-  }
+.navbar-links {
+  display: flex;
+  justify-content: space-around; /* Better spacing than evenly for navs */
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
 
-  .img-nav {
-    color: #fff;
-    justify-content: center;
-    cursor: pointer;
-    text-decoration: none;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-    font-size: 20px;
-  }
+.nav-logo {
+  height: 70px; /* Control the logo size here */
+  width: auto;
+  transition: 0.3s;
+}
 
-  .img-nav > span {
-    white-space: nowrap;
-  }
+.img-nav {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px; /* 20px is a bit large for nav links */
+  font-weight: 500;
+  padding: 0 15px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.img-nav:hover {
+  color: #ff5230;
+  transform: translateY(-2px);
+}

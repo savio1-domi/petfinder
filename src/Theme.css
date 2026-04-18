@@ -1,0 +1,49 @@
+/* src/Theme.css */
+:root {
+  /* Brand Colors */
+  --primary-color: #545268;    /* Deep Purple/Grey */
+  --accent-color: #ff5230;     /* Signature Orange/Red */
+  --bg-light: #fcfcfc;
+  --bg-card: #ffffff;
+  
+  /* Text Colors */
+  --text-main: #302821;
+  --text-muted: #666666;
+  
+  /* Layout Constants */
+  --shadow: 0 10px 25px rgba(0,0,0,0.05);
+  --radius: 15px;
+  --transition: 0.3s ease;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+}
+
+/* Global Button Classes */
+.button-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button-primary:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+/* Global Card Class */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: var(--transition);
+}

@@ -1,0 +1,27 @@
+.add-pet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+.add-pet-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  gap: 15px;
+}
+
+.add-pet-form input, .add-pet-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-pet-form textarea {
+  height: 100px;
+}

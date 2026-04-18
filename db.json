@@ -1,0 +1,914 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Duke 1",
+      "breed": "Beagle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=1",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "name": "Luna 2",
+      "breed": "Persian Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=2",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "3",
+      "name": "Max 3",
+      "breed": "Persian Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=3",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "4",
+      "name": "Duke 4",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=4",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "5",
+      "name": "Simba 5",
+      "breed": "Poodle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=5",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "6",
+      "name": "Charlie 6",
+      "breed": "Bulldog",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=6",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "7",
+      "name": "Zoe 7",
+      "breed": "Poodle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=7",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "8",
+      "name": "Luna 8",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=8",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "9",
+      "name": "Simba 9",
+      "breed": "Husky",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=9",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "10",
+      "name": "Zoe 10",
+      "breed": "Beagle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=10",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "11",
+      "name": "Buddy 11",
+      "breed": "Persian Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=11",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "12",
+      "name": "Max 12",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=12",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "13",
+      "name": "Coco 13",
+      "breed": "African Basenji",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=13",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "14",
+      "name": "Zoe 14",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=14",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "15",
+      "name": "Charlie 15",
+      "breed": "Poodle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=15",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "16",
+      "name": "Simba 16",
+      "breed": "Beagle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=16",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "17",
+      "name": "Buddy 17",
+      "breed": "Poodle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=17",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "18",
+      "name": "Buddy 18",
+      "breed": "Siamese Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=18",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "19",
+      "name": "Buddy 19",
+      "breed": "Persian Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=19",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "20",
+      "name": "Bella 20",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=20",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "21",
+      "name": "Coco 21",
+      "breed": "Husky",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=21",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "22",
+      "name": "Coco 22",
+      "breed": "Poodle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=22",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "23",
+      "name": "Rocky 23",
+      "breed": "Beagle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=23",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "24",
+      "name": "Misty 24",
+      "breed": "Bulldog",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=24",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "25",
+      "name": "Misty 25",
+      "breed": "Beagle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=25",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "26",
+      "name": "Rocky 26",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=26",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "27",
+      "name": "Luna 27",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=27",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "28",
+      "name": "Coco 28",
+      "breed": "Siamese Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=28",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "29",
+      "name": "Simba 29",
+      "breed": "Siamese Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=29",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "30",
+      "name": "Zoe 30",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=30",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "31",
+      "name": "Charlie 31",
+      "breed": "Husky",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=31",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "32",
+      "name": "Buddy 32",
+      "breed": "Husky",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=32",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "33",
+      "name": "Bella 33",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=33",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "34",
+      "name": "Bella 34",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=34",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "35",
+      "name": "Rocky 35",
+      "breed": "Beagle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=35",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "36",
+      "name": "Duke 36",
+      "breed": "Bulldog",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=36",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "37",
+      "name": "Buddy 37",
+      "breed": "Persian Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=37",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "38",
+      "name": "Bella 38",
+      "breed": "Husky",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=38",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "39",
+      "name": "Bella 39",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=39",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "40",
+      "name": "Buddy 40",
+      "breed": "Husky",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=40",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "41",
+      "name": "Coco 41",
+      "breed": "Beagle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=41",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "42",
+      "name": "Misty 42",
+      "breed": "African Basenji",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=42",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "43",
+      "name": "Buddy 43",
+      "breed": "Husky",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=43",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "44",
+      "name": "Zoe 44",
+      "breed": "Persian Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=44",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "45",
+      "name": "Duke 45",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=45",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "46",
+      "name": "Charlie 46",
+      "breed": "Poodle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=46",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "47",
+      "name": "Buddy 47",
+      "breed": "Golden Retriever",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=47",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "48",
+      "name": "Charlie 48",
+      "breed": "Poodle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=48",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "49",
+      "name": "Buddy 49",
+      "breed": "Husky",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=49",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "50",
+      "name": "Duke 50",
+      "breed": "Persian Cat",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=50",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "51",
+      "name": "Simba 51",
+      "breed": "Husky",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=51",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "52",
+      "name": "Buddy 52",
+      "breed": "Siamese Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=52",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "53",
+      "name": "Max 53",
+      "breed": "Husky",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=53",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "54",
+      "name": "Rocky 54",
+      "breed": "Poodle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=54",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "55",
+      "name": "Misty 55",
+      "breed": "African Basenji",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=55",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "56",
+      "name": "Coco 56",
+      "breed": "Siamese Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=56",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "57",
+      "name": "Duke 57",
+      "breed": "Poodle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=57",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "58",
+      "name": "Luna 58",
+      "breed": "Husky",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=58",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "59",
+      "name": "Misty 59",
+      "breed": "Beagle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=59",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "60",
+      "name": "Zoe 60",
+      "breed": "African Basenji",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=60",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "61",
+      "name": "Max 61",
+      "breed": "Bulldog",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=61",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "62",
+      "name": "Misty 62",
+      "breed": "Persian Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=62",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "63",
+      "name": "Zoe 63",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=63",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "64",
+      "name": "Duke 64",
+      "breed": "Bulldog",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=64",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "65",
+      "name": "Bella 65",
+      "breed": "Golden Retriever",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=65",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "66",
+      "name": "Charlie 66",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=66",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "67",
+      "name": "Buddy 67",
+      "breed": "Poodle",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=67",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "68",
+      "name": "Max 68",
+      "breed": "Bulldog",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=68",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "69",
+      "name": "Rocky 69",
+      "breed": "African Basenji",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=69",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "70",
+      "name": "Rocky 70",
+      "breed": "Siamese Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=70",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "71",
+      "name": "Duke 71",
+      "breed": "Golden Retriever",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=71",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "72",
+      "name": "Luna 72",
+      "breed": "Golden Retriever",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=72",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "73",
+      "name": "Rocky 73",
+      "breed": "Persian Cat",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=73",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "74",
+      "name": "Max 74",
+      "breed": "Persian Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=74",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "75",
+      "name": "Duke 75",
+      "breed": "Persian Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=75",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "76",
+      "name": "Zoe 76",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=76",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "77",
+      "name": "Zoe 77",
+      "breed": "African Basenji",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=77",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "78",
+      "name": "Zoe 78",
+      "breed": "Husky",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=78",
+      "description": "This sweet Husky is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "79",
+      "name": "Zoe 79",
+      "breed": "African Basenji",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=79",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "80",
+      "name": "Luna 80",
+      "breed": "Golden Retriever",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=80",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "81",
+      "name": "Charlie 81",
+      "breed": "Siamese Cat",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=81",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": true
+    },
+    {
+      "id": "82",
+      "name": "Duke 82",
+      "breed": "Siamese Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=82",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "83",
+      "name": "Coco 83",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=83",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "84",
+      "name": "Coco 84",
+      "breed": "Golden Retriever",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=84",
+      "description": "This sweet Golden Retriever is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "85",
+      "name": "Max 85",
+      "breed": "Poodle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=85",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "86",
+      "name": "Duke 86",
+      "breed": "Persian Cat",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=86",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "87",
+      "name": "Duke 87",
+      "breed": "African Basenji",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=87",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "88",
+      "name": "Max 88",
+      "breed": "Persian Cat",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=88",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "89",
+      "name": "Rocky 89",
+      "breed": "Bulldog",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=89",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "90",
+      "name": "Rocky 90",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=90",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "91",
+      "name": "Coco 91",
+      "breed": "African Basenji",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=91",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "92",
+      "name": "Max 92",
+      "breed": "Beagle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=92",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "93",
+      "name": "Coco 93",
+      "breed": "Beagle",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=93",
+      "description": "This sweet Beagle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "94",
+      "name": "Rocky 94",
+      "breed": "Bulldog",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=94",
+      "description": "This sweet Bulldog is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "95",
+      "name": "Misty 95",
+      "breed": "Poodle",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=95",
+      "description": "This sweet Poodle is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "96",
+      "name": "Duke 96",
+      "breed": "African Basenji",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=96",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "97",
+      "name": "Coco 97",
+      "breed": "African Basenji",
+      "category": "Cat",
+      "image_url": "https://loremflickr.com/400/300/cat?lock=97",
+      "description": "This sweet African Basenji is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "98",
+      "name": "Simba 98",
+      "breed": "Siamese Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=98",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "99",
+      "name": "Bella 99",
+      "breed": "Persian Cat",
+      "category": "Dog",
+      "image_url": "https://loremflickr.com/400/300/dog?lock=99",
+      "description": "This sweet Persian Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    },
+    {
+      "id": "100",
+      "name": "Coco 100",
+      "breed": "Siamese Cat",
+      "category": "Other",
+      "image_url": "https://loremflickr.com/400/300/other?lock=100",
+      "description": "This sweet Siamese Cat is healthy, vaccinated, and looking for a loving home!",
+      "isFavorite": false
+    }
+  ],
+  "organizations": [
+    {
+      "id": "1",
+      "name": "Petflix Rescue Center",
+      "location": "Nairobi",
+      "email": "adopt@petflix.com",
+      "phone": "+254 700 000 000"
+    }
+  ],
+  "users": []
+}

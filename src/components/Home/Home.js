@@ -1,50 +1,45 @@
 import React from "react";
 import "./Home.css";
 
-// Home component that returns a div with container and text class
 function Home() {
   return (
     <div className="section-a">
       <div className="container">
-        {/* Image component */}
-        <div className="image-kom">
-          <img src="https://www.shutterstock.com/image-photo/little-dog-owner-spend-day-park-511107457" alt="img" />
+        <div className="image-container">
+          <img 
+            src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=1000" 
+            alt="Dog and owner in a park" 
+          />
         </div>
 
         <div className="text">
-          {/* Emojis */}
-          👩🏼‍🦰 🧑🏼‍🦰
-          {/* Header component */}
+          <span role="img" aria-label="owners" style={{ fontSize: "40px" }}>
+            👩🏼‍🦰 🧑🏼‍🦰
+          </span>
+          
           <h1 className="mega-font">
             Hello
             <span> Pet Lovers</span>
           </h1>
-          {/* Paragraph component */}
+
           <p style={{ fontSize: "30px" }}>
-            An online platform to march animals who need new homes.
+            An online platform to match animals who need new homes.
           </p>
 
-          {/* Empty paragraph component */}
-          <p className="number"></p>
-          {/* Horizontal line component */}
-          <hr width="50%" />
+          <hr style={{ width: "50%", margin: "20px auto" }} />
 
-          {/* Column grid component */}
           <div className="column-grid">
             <div className="column-1">
-              {/* Column component */}
               <h3>Dogs</h3>
               <p>Domestic Animals</p>
             </div>
             <div className="column-2">
-              {/* Column component */}
               <h3>Cats</h3>
               <p>Tamed Animals</p>
             </div>
             <div className="column-3">
-              {/* Column component */}
               <h3>Family Friendly</h3>
-              <p>kids safe</p>
+              <p>Kids safe</p>
             </div>
           </div>
         </div>
